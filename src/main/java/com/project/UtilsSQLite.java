@@ -46,6 +46,8 @@ public class UtilsSQLite {
         return list;
     }
 
+    
+
     public static int queryUpdate (Connection conn, String sql) {
         int result = 0;
         try {
@@ -63,4 +65,5 @@ public class UtilsSQLite {
         } catch (SQLException e) { e.printStackTrace(); }
         return rs;
     }
+    
 }
